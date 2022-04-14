@@ -12,7 +12,8 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build",
-    "postversion": "assets.json"
+    "postversion": "assets.json",
+    "dep": "bash ./deploy.sh"
   },
   "module": "es/index.js",
   "typings": "es/index.d.ts",
